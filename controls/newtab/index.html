@@ -1,5 +1,20 @@
-<html>
-  <body style="background-color: black; color: white;">
-    Foo Bar!
-  </body>
+<!doctype html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>New Tab</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-controller="MainCtrl">
+    <div id="time">
+        <span class="hour">{{ date.tz | date:'HH' }}</span>
+        <span class="minute">{{ date.tz | date:'mm' }}</span>
+        <span class="second">{{ date.tz | date:'ss' }}</span>
+    </div>
+    <div class="date">{{ date.tz | date:'EEEE, d MMMM yyyy' }}</div>
+    <div class="location">{{ user.location }}</div>
+
+    <script src="./js/vendor/angular.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
 </html>
