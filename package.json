@@ -1,5 +1,5 @@
 {
-  "name": "mod_newtab",
+  "name": "mod_newtab_clock",
   "version": "0.2.0",
   "main": "./index.js",
   "dependencies": {
