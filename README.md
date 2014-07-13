@@ -4,7 +4,7 @@
 ### Preview
 
 It looks like this:
-![](http://d.pr/i/BqF0+)
+![](http://d.pr/i/azYW+)
 
 ### Install
 
