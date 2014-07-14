@@ -1,6 +1,6 @@
 {
-  "name": "mod_newtab",
-  "version": "0.1.0",
+  "name": "mod_newtab_clock",
+  "version": "0.2.0",
   "main": "./index.js",
   "dependencies": {
     "breach_module": "0.3.x",
@@ -8,6 +8,8 @@
     "express": "4.0.x",
     "body-parser": "1.0.x",
     "method-override": "1.0.x",
-    "request": "2.36.x"
+    "request": "2.36.x",
+    "mime": "^1.2.11",
+    "methods": "^1.1.0"
   }
 }
