@@ -9,6 +9,7 @@
     "body-parser": "1.0.x",
     "method-override": "1.0.x",
     "request": "2.36.x",
-    "mime": "^1.2.11"
+    "mime": "^1.2.11",
+    "methods": "^1.1.0"
   }
 }
